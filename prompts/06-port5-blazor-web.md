@@ -1,0 +1,5 @@
+# Port V: Blazor Web App. Uses the Playwright MCP server.
+
+```text
+Ticket PRT-105, PR Tracker in the browser, one set of components: the app should run in the browser, and the same screen must not be paid for twice. The Ledger in the browser: the list of lifts (personal bests marked) and the form to add a lift, as Razor components in src/PrTracker.Components. src/PrTracker.Web (Blazor Web App) hosts them at /ledger, on http://localhost:5080. The same components will also live in the phone app (Blazor Hybrid), so build them once. PrTracker.Core stays as it is. Create the records list (personal bests marked) and the add form as Razor components in PrTracker.Components, using PrTracker.Core. Host them in PrTracker.Web (Blazor Web App) at /ledger. Start the web app on http://localhost:5080 and leave it running. Verify it with the Playwright tools in headless mode: add a record through the form, confirm it appears, save a screenshot to verify/ledger.png. Fix anything you find and verify again. Do not touch PrTracker.Maui. Do not ask me questions. Make reasonable decisions, list them in your final summary, and continue.
+```

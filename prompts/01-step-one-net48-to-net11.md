@@ -1,0 +1,5 @@
+# Step One: .NET Framework 4.8 to .NET 11 (WinForms). Agent mode, any IDE.
+
+```text
+Read CHANGE_REQUEST.md. This is a .NET Framework 4.8 Windows Forms app with an old-style project file and packages.config. Migrate PrTracker.Ledger to .NET 11: convert it to an SDK-style project targeting net11.0-windows with UseWindowsForms, move packages to PackageReference (upgrade or replace anything that has no .NET 11 version), and replace any API that does not work on .NET 11. Keep behaviour and layout identical. Do not add features, do not enable nullable, do not refactor. Build until there are zero errors and commit after each step. Then run the app and check it: confirm that the main form opens and lists the lifts, and save a screenshot to verify/step1.png. Fix what you find and check again, then close the app. When done, write UPGRADE_NOTES.md: what you changed, what you could not verify, and what a human must check. Do not ask me questions. Make reasonable decisions, note them in NOTES.md, and continue.
+```
