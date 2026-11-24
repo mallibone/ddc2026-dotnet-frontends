@@ -2,7 +2,7 @@
 
 My talk at the .NET Developer Conference (DDC) 2026, Köln.
 
-Slides: coming after the talk.
+Slides: [PDF](slides/DDC2026_Blazor-MAUI-WPF-WinForms.pdf)
 
 ## What I used
 
