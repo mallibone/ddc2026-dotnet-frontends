@@ -16,12 +16,6 @@ Slides: coming after the talk.
 
 Links checked 2026-11-23.
 
-## Prompts
-
-The prompts from the demos are in [prompts/](prompts/).
-
-The demo app (PR Tracker) is not public, so the prompts refer to files from it.
-
 ## License
 
 [CC BY 4.0](LICENSE)
